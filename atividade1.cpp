@@ -10,15 +10,15 @@ int contarNumerosInteiros(int a, int b) {
 int main() {
 	int a, b;
 	
-	printf("Digite o primeiro número: ");
+	printf("Digite o primeiro nÃºmero: ");
 	scanf("%d", &a);
 	
-	printf("Digite o segundo número: ");
+	printf("Digite o segundo nÃºmero: ");
 	scanf("%d", &b);
 	
 	int resultado = contarNumerosInteiros(a, b);
 	
-	printf("Existem %d números inteiros entre %d e %d (exclusivamente). \n", resultado, a, b);
+	printf("Existem %d nÃºmeros inteiros entre %d e %d (exclusivamente). \n", resultado, a, b);
 	
 	return 0;
 }
