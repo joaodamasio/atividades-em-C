@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int contarNumerosInteiros(int a, int b) {
+	int diferenca = abs(a - b) - 1;
+	
+	return diferenca;
+}
+
+int main() {
+	int a, b;
+	
+	printf("Digite o primeiro número: ");
+	scanf("%d", &a);
+	
+	printf("Digite o segundo número: ");
+	scanf("%d", &b);
+	
+	int resultado = contarNumerosInteiros(a, b);
+	
+	printf("Existem %d números inteiros entre %d e %d (exclusivamente). \n", resultado, a, b);
+	
+	return 0;
+}
